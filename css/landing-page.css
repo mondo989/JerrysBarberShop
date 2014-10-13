@@ -9,6 +9,7 @@ html {
     width: 100%;
     height: 100%;
     font-family:"Open sans", Helvetica, Arial; 
+    overflow-x: hidden;
 }
 
 body,
@@ -28,8 +29,9 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 70px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 70px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/shop-background.png) no-repeat center center;
@@ -38,8 +40,7 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding: 20px 0;
 }
 
 .intro-message > h1 {
@@ -136,13 +137,22 @@ h6 {
 .view-prices {
     background: #99d4f4;
     margin-top: 20px;
-    padding: 15px 40px;
+    color: white;
+    font-size: 20px;
+    padding: 19px 45px;
+    -webkit-transition: 1s;
+       -moz-transition: 1s;
+        -ms-transition: 1s;
+         -o-transition: 1s;
+            transition: 1s;
 }
 
 .maps {
     height:300px;
     background: url("../img/map.png");
+    background-attachment: fixed;
     background-size: cover;
+    
 }
 
 .jerrys-sign {
@@ -169,6 +179,16 @@ h6 {
     background: url("../img/art.png");
     padding: 50px 0;
     background-size: cover;
+    opacity: .4;
+    -webkit-transition: 1s;
+       -moz-transition: 1s;
+        -ms-transition: 1s;
+         -o-transition: 1s;
+            transition: 1s;
+}
+
+.art:hover {
+    opacity: 1;
 }
 
 .chairs {
@@ -178,9 +198,94 @@ h6 {
 }
 
 .email-us {
-    background: red;
     padding: 30px 0;
+    margin-bottom: 30px;
 }
+
+.mail {
+    opacity: .6;
+    margin-top: 10px;
+    width: 40px;
+    -webkit-transition: 1.2s;
+       -moz-transition: 1.2s;
+        -ms-transition: 1.2s;
+         -o-transition: 1.2s;
+            transition: 1.2s;
+}
+
+.mail:hover {
+    opacity: 1;
+}
+
+.fader {
+    background: url("../img/fade.png");
+    background-size: cover;
+    background-position: -20px 1px;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+
+}
+
+
+.beard {
+    background: url("../img/beard.png");
+    background-size: cover;
+    background-position: -20px 1px;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+
+}
+
+
+.hair-design {
+    background: url("../img/hair-design.png");
+    background-size: cover;
+    background-position: -20px -1px;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+
+}
+
+.bk-holder {
+    background: red;    
+}
+
+.shop-gallery {
+    font-size: 20px;
+}
+
+.clippers {
+    position: absolute;
+    right: 0;
+    background: url("../img/clippers.png");
+    width: 500px;
+    height: 300px;
+    margin-right: -40px;
+    background-repeat:  no-repeat;    
+
+
+    
+}
+
+.social-media-head {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+
+
+    text-align: center;
+}
+
+li.social-media-head {
+    background: blue;
+    padding: 20px;
+}
+
 
 
 
@@ -214,8 +319,8 @@ h6 {
 }
 
 .circle {
-    height: 185px;
-    width: 185px;
+    height: 225px;
+    width: 225px;
     -webkit-border-radius: 50%;
             border-radius: 50%;
     margin: 0 auto;

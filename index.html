@@ -52,7 +52,10 @@
                         <a href="#"> 989-233-2333</a>
                     </li>
                     <li>
-                        <a href="#"> 989-233-2333</a>
+                        <img src="img/fb.png" alt="" class="social-media-head">
+                    </li>
+                    <li>
+                        <img src="img/instagram.png" alt="" class="social-media-head">
                     </li>
                 </ul>
             </div>
@@ -70,9 +73,9 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                        <h1>Professional Barbers</h1>
-                       <h3>Open Tuesday - Saturday</h3>
-                       <h3>9am - 6pm</h3>
-                       <h5>Adam Ortiz & Dion Threadgil</h5>
+                       <h2>Open Tuesday - Saturday
+                        <br>9:00am - 6:00pm</h2>
+                       <h3>Adam Ortiz & Dion Threadgil</h3>
 
                     </div>
                 </div>
@@ -100,7 +103,7 @@
                     <div class="seperator"></div>
                     <p>For over 25 years, Jerry’s has been providing service to every walk of life, almost every personality, and just about every haircut.  So come experience the luxury of man… because when you look better, you feel better!</p>
                     <br>
-                    <a href="#" class="shop-gallery text-center">See Barber Shop Gallery</a>
+                    <a href="#" class="shop-gallery text-center" data-toggle="modal" data-target="#shopModal">See Barber Shop Gallery</a>
                 </div>
             </div>
 
@@ -110,24 +113,26 @@
     </div>
     <!-- /.content-section-a -->
 
-    <div class="content-section-b">
-
+    <div class="content-section-b clearfix">
         <div class="container">
+            <span class="clippers pull-right"></span>
             <h2>Home of the Lorem Ipsum</h2>
-            <br><br>
+            <br>
+            <br>
             <div class="row text-center">
                 <div class="col-sm-4">
-                        <div class="circle blue">ho</div>
+                        <div class="circle fader">
+                        </div>
                 </div>
                 <div class="col-sm-4 push-top">
-                        <div class="circle blue"></div>
+                        <div class="circle beard"></div>
                 </div>
                 <div class="col-sm-4">
-                        <div class="circle blue"></div>
+                        <div class="circle hair-design"></div>
                 </div>
             </div>
             <div class="text-center">
-                <button class="btn view-prices">View Prices</button>
+                <button class="btn view-prices" href="#" data-toggle="modal" data-target="#pricesModal">View Prices</button>
             </div>
         </div>
         <!-- /.container -->
@@ -149,9 +154,10 @@
                     <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
                   </ol>
                   <!-- Carousel items -->
-                  <div class="profile-circle"></div>
+                
                   <div class="carousel-inner">
                     <div class="active item">
+                         <div class="profile-circle"></div>
                         <blockquote>
                             <p>"Jerry's Barber shop is an awesome place"</p>
                             <br>
@@ -193,19 +199,129 @@
     <div class="art text-center">
         <h2 class="white">We also create and sell custom artwork</h2>
         <br>
-        <a href="#" class="shop-gallery ">See Gallery</a>
+        <a href="#" class="shop-gallery" data-toggle="modal" data-target="#artModal">See Gallery</a>
+
+
     </div>
 
     <!--  Email  Form-->
     <div class="email-us text-center">
         <h3>We'd love to talk, send us an email.</h3>
         <br>
-        <span class="email">u</span>
+        <span class="email">
+            <img class="mail" src="img/mail.png" alt="">
+        </span>
     </div>
 
     <div class="maps">
-
+ui
     </div>
+
+
+
+
+
+<!--
+<div class="container">
+    <div class="span3 well">
+        <center>
+        <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" class="img-circle"></a>
+        <h3>Joe Sixpack</h3>
+        <em>click my face for more</em>
+        </center>
+    </div>
+    -->
+
+
+
+
+    <!-- Prices Modal -->
+    <div class="modal fade" id="pricesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h3 class="modal-title text-center" id="myModalLabel">Jerry's Prices</h3>
+                </div>
+                <div class="modal-body">
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"> <br>Haircuts: 20$
+                    <hr>
+
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+   <!-- Prices Modal -->
+    <div class="modal fade" id="shopModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Shop Gallery</h4>
+                </div>
+                <div class="modal-body">
+                    Shop gallery stuff goes here.
+                    <hr>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, quam, corporis, ea ullam facere magnam impedit autem deserunt ut excepturi neque numquam libero vel placeat explicabo et reiciendis fugiat. Qui.
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                    </p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Art Modal -->
+    <div class="modal fade" id="artModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Art Gallery</h4>
+                    </div>
+                <div class="modal-body">
+                    Art gallery content goes here
+                    <hr>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, facilis veritatis quibusdam nesciunt quidem eius omnis consequatur id vitae a. Dolor beatae odio totam sit fuga distinctio pariatur recusandae delectus!
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                    </p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 
     <!-- Footer -->
     <footer>
