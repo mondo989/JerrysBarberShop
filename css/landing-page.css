@@ -36,11 +36,22 @@ h6 {
     color: #f8f8f8;
     background: url(../img/shop-background.png) no-repeat center center;
     background-size: cover;
+    
+
+    
+
+
 }
 
 .intro-message {
     position: relative;
     padding: 20px 0;
+    
+    -webkit-animation: vanishIn 2.3s  ease;
+    -moz-animation: vanishIn 2.3s  ease;
+    -ms-animation: vanishIn 2.3s  ease;
+    -o-animation: vanishIn 2.3s ease;
+    animation: vanishIn 2.3s ease;
 }
 
 .intro-message > h1 {
@@ -169,14 +180,32 @@ h6 {
     
 }
 
-.jerrys-sign {
+.jerrys-sign.main-circle {
     background: url("../img/jerrys-sign.png");
     -webkit-background-size: 250px 250px;
          -o-background-size: 250px 250px;
             background-size: 250px 250px;
-    background-position: -10px -5px;
+    background-position: -15px -5px;
+    border: 0px solid #f3f3f3;
+    -webkit-transition: 1s;
+       -moz-transition: 1s;
+        -ms-transition: 1s;
+         -o-transition: 1s;
+            transition: 1s;
+      
+
 }
 
+  .jerrys-sign.main-circle:hover { 
+  border: 10px solid #fff;
+   -webkit-transition: 1s;
+       -moz-transition: 1s;
+        -ms-transition: 1s;
+         -o-transition: 1s;
+            transition: 1s;
+      
+
+}
 
 .push-top {
     margin-top: -30px;
@@ -305,8 +334,6 @@ li.social-media-head {
 
 .width100 {
     width: 100%;
-
-    max-height: 610px;
 }
 
 
@@ -356,6 +383,7 @@ li.social-media-head {
     -webkit-border-radius: 50%;
             border-radius: 50%;
     margin: 0 auto;
+
 }
 
 .seperator {
