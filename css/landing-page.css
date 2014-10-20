@@ -36,11 +36,12 @@ h6 {
     color: #f8f8f8;
     background: url(../img/shop-background.png) no-repeat center center;
     background-size: cover;
-    
+}
 
-    
-
-
+.above-footer {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
 }
 
 .intro-message {
@@ -152,6 +153,7 @@ h6 {
 .view-prices {
     background: #99d4f4;
     margin-top: 20px;
+    border: 1px solid white;
     color: white;
     font-size: 20px;
     -webkit-border-radius: 15px;
@@ -167,7 +169,7 @@ h6 {
 .view-prices:hover{
  -webkit-box-shadow: 0 2px 2px lightgray;
             box-shadow: 0 2px 2px lightgray;
-        color: black;
+        color: #f3f3f3;
 }
 
 .maps {
@@ -180,7 +182,7 @@ h6 {
     
 }
 
-.jerrys-sign.main-circle {
+.jerrys-sign.main-circle { 
     background: url("../img/jerrys-sign.png");
     -webkit-background-size: 250px 250px;
          -o-background-size: 250px 250px;
@@ -278,6 +280,13 @@ h6 {
 
 }
 
+.barber-pole {
+    height: 19px;
+    width: 700px;
+    margin: 20px 0;
+    opacity: .2;
+}
+
 
 
 .hair-design {
@@ -296,7 +305,7 @@ h6 {
 }
 
 .shop-gallery {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .clippers {
@@ -500,14 +509,25 @@ hr {
             width: 260px;
         }
 
-        .main-circle {
+            .jerrys-sign.main-circle  {
             height: 110px;
             width: 110px;
-            -webkit-background-size: 100% 100%;
+            -webkit-background-size: 120% 120%;
                  -o-background-size: 120% 120%;
-                    background-size: 100% 100%;
+                    background-size: 120% 120%;
             background-position:  -1px 0;
         }
+
+        ul.nav li  {
+            text-align: center;
+        }
+
+        .intro-message {
+            margin-top: -40px;
+
+        }
+
+
      }
 
 
@@ -536,4 +556,8 @@ hr {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+
+      ul.nav li  {
+            text-align: center;
+        }
 }
