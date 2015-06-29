@@ -8,7 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
-    font-family:"Open sans", Helvetica, Arial; 
+    font-family:"Open sans", Helvetica, Arial;
     overflow-x: hidden;
 }
 
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:"Open sans", Helvetica, Arial; 
+    font-family:"Open sans", Helvetica, Arial;
     font-weight: 400;
 }
 
@@ -41,13 +41,17 @@ h6 {
 .above-footer {
     width: 100%;
     height: 120px;
-    margin-top: 20px;
+    margin-top: 30px;
+    line-height: 2;
+}
+.above-footer h4 {
+  line-height: 1.5;
 }
 
 .intro-message {
     position: relative;
     padding: 20px 0;
-    
+
     -webkit-animation: vanishIn 2.3s  ease;
     -moz-animation: vanishIn 2.3s  ease;
     -ms-animation: vanishIn 2.3s  ease;
@@ -179,10 +183,10 @@ h6 {
     background-size: cover;
     background-position: center 52%;
 
-    
+
 }
 
-.jerrys-sign.main-circle { 
+.jerrys-sign.main-circle {
     background: url("../img/jerrys-sign.png");
     -webkit-background-size: 250px 250px;
          -o-background-size: 250px 250px;
@@ -194,18 +198,18 @@ h6 {
         -ms-transition: 1s;
          -o-transition: 1s;
             transition: 1s;
-      
+
 
 }
 
-  .jerrys-sign.main-circle:hover { 
+  .jerrys-sign.main-circle:hover {
   border: 10px solid #fff;
    -webkit-transition: 1s;
        -moz-transition: 1s;
         -ms-transition: 1s;
          -o-transition: 1s;
             transition: 1s;
-      
+
 
 }
 
@@ -232,7 +236,7 @@ h6 {
 .chairs {
     background: url("../img/chairs.png");
     background-size: cover;
-    background-attachment:  fixed;
+    min-height: 500px;
 }
 
 
@@ -271,7 +275,7 @@ h6 {
 
 
 .beard {
-    background: url("../img/beard.png");
+    background: url("../img/kids-haircut.jpg");
     background-size: cover;
     background-position: -20px 1px;
     -webkit-background-size: cover;
@@ -290,7 +294,7 @@ h6 {
 
 
 .hair-design {
-    background: url("../img/hair-design.png");
+    background: url("../img/haircut-with-design.jpg");
     background-size: cover;
     background-position: -20px -10px;
     -webkit-background-size: cover;
@@ -301,7 +305,7 @@ h6 {
 
 
 .bk-holder {
-    background: red;    
+    background: red;
 }
 
 .shop-gallery {
@@ -315,10 +319,10 @@ h6 {
     width: 500px;
     height: 300px;
     margin-right: -40px;
-    background-repeat:  no-repeat;    
+    background-repeat:  no-repeat;
 
 
-    
+
 }
 
 .social-media-head {
@@ -393,6 +397,7 @@ a.black {
             border-radius: 12px;
         width: 600px;
         margin: 0 auto;
+        min-height: 420px;
 }
 
 .circle {
@@ -429,7 +434,7 @@ a.black {
 
 .active {
     background: white;
-    
+
 }
 
 
@@ -481,12 +486,17 @@ section {
     height: 100px;
     margin: 0 auto;
     border-radius: 100px;
-
+    margin-top: 30px;
     margin-bottom: 12px;
 }
 
+.mail-ico {
+  font-size: 40px;
+}
+
+
 .quote-a {
-    background: url("https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/p200x200/1491731_10152418024016591_5611512913486724686_n.jpg?oh=34cd32232d289c7992a73f42bb7d6484&oe=54B27336&__gda__=1420475168_d565e1fce1f875caf883411b519ebfe1");
+    background: url("../img/kyle.jpg");
     background-position: 60% 40%;
     -webkit-background-size: 140px 140px;
          -o-background-size: 140px 140px;
@@ -494,19 +504,21 @@ section {
 }
 
 .quote-b {
-    background: url("https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/t31.0-8/10556889_10203007876739301_2001974990926232280_o.jpg");
+    background: url("../img/dave.jpg");
     background-position: 30% 40%;
-    -webkit-background-size: 280px 180px;
-         -o-background-size: 280px 180px;
-            background-size: 280px 180px;
+    -webkit-background-size: 180px 180px;
+         -o-background-size: 180px 180px;
+            background-size: 180px 180px;
 }
 
+
+
 .quote-c {
-    background: url("https://scontent-a-sjc.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10455288_10202574682194158_7494884761629743020_n.jpg?oh=ba80fa4c39046000503d8f90520706e5&oe=54F6ABE7");
+    background: url("../img/juan.jpg");
      background-position: 70% 40%;
-    -webkit-background-size: 130px 180px;
-         -o-background-size: 130px 180px;
-            background-size: 130px 180px;
+    -webkit-background-size: 120px 120px;
+         -o-background-size: 120px 120px;
+            background-size: 120px 120px;
 }
 
 
@@ -535,7 +547,7 @@ hr {
 
 @media(max-width:420px) {
         .white-bk {
-            width: 260px;
+            width: 90%;
         }
 
             .jerrys-sign.main-circle  {
