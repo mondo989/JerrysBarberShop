@@ -178,7 +178,7 @@ h6 {
 
 .maps {
     height:300px;
-    background: url("../img/map.png");
+    background-image: url('http://armando.sx/sites/static-assets/map.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 52%;
@@ -187,7 +187,7 @@ h6 {
 }
 
 .jerrys-sign.main-circle {
-    background: url("../img/jerrys-sign.png");
+    background-image: url("../img/jerrys-sign.png");
     -webkit-background-size: 250px 250px;
          -o-background-size: 250px 250px;
             background-size: 250px 250px;
@@ -218,7 +218,7 @@ h6 {
 }
 
 .art {
-    background: url("../img/art.png");
+    background-image: url("../img/art.png");
     padding: 50px 0;
     background-size: cover;
     opacity: .4;
@@ -234,7 +234,7 @@ h6 {
 }
 
 .chairs {
-    background: url("../img/chairs.png");
+    background-image: url("../img/chairs.png");
     background-size: cover;
     min-height: 500px;
 }
@@ -264,7 +264,7 @@ h6 {
 }
 
 .fader {
-    background: url("../img/fade.png");
+    background-image: url("../img/fade.png");
     background-size: cover;
     background-position: -20px 1px;
     -webkit-background-size: cover;
@@ -275,7 +275,7 @@ h6 {
 
 
 .beard {
-    background: url("../img/kids-haircut.jpg");
+    background-image: url('http://armando.sx/sites/static-assets/kids-haircut.jpg');
     background-size: cover;
     background-position: -20px 1px;
     -webkit-background-size: cover;
@@ -294,7 +294,7 @@ h6 {
 
 
 .hair-design {
-    background: url("../img/haircut-with-design.jpg");
+    background-image: url("http://armando.sx/sites/static-assets/haircut-with-design.jpg");
     background-size: cover;
     background-position: -20px -10px;
     -webkit-background-size: cover;
@@ -496,7 +496,7 @@ section {
 
 
 .quote-a {
-    background: url("../img/kyle.jpg");
+    background: url(" http://armando.sx/sites/static-assets/kyle.jpg");
     background-position: 60% 40%;
     -webkit-background-size: 140px 140px;
          -o-background-size: 140px 140px;
@@ -504,7 +504,7 @@ section {
 }
 
 .quote-b {
-    background: url("../img/dave.jpg");
+    background: url("http://armando.sx/sites/static-assets/dave.jpg");
     background-position: 30% 40%;
     -webkit-background-size: 180px 180px;
          -o-background-size: 180px 180px;
@@ -514,7 +514,7 @@ section {
 
 
 .quote-c {
-    background: url("../img/juan.jpg");
+    background: url("http://armando.sx/sites/static-assets/juan.jpg");
      background-position: 70% 40%;
     -webkit-background-size: 120px 120px;
          -o-background-size: 120px 120px;
